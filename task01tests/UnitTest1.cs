@@ -1,4 +1,5 @@
-﻿using xUnit;
+﻿using task01;
+using Xunit;
 
 public class StringExtensionsTests
 {
