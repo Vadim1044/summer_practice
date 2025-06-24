@@ -1,12 +1,11 @@
-﻿using task01;
-using Xunit;
+﻿using xUnit;
 
 public class StringExtensionsTests
 {
     [Fact]
     public void IsPalindrome_ValidPalindrome_ReturnsTrue()
     {
-        string input = "� ���� ����� �� ���� �����";
+        string input = "А роза упала на лапу Азора";
         Assert.True(input.IsPalindrome());
     }
 
