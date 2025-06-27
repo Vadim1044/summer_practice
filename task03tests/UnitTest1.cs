@@ -1,7 +1,5 @@
 ﻿namespace task03tests;
 using Xunit;
-using Moq;
-using System.Collections;
 using task03;
 
 public class IteratorTests
