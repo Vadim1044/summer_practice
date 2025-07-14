@@ -1,4 +1,4 @@
-﻿namespace task07;
+﻿namespace task09;
 using System;
 using System.Reflection;
 using System.Collections;
@@ -6,11 +6,11 @@ using System.Collections.Generic;
 using System.Linq;
 public sealed class DisplayNameAttribute : Attribute
 {
-    public string DisplayName {get;}
+    public string DisplayName { get; }
 
     public DisplayNameAttribute(string displayName)
     {
-      DisplayName = displayName;
+        DisplayName = displayName;
     }
 }
 public sealed class VersionAttribute : Attribute
